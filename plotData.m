@@ -1,6 +1,11 @@
 function plotData(X, label, hFig)
 % Plot samples of different labels with different markers and colors.
-% Written by Behrouz Haji Soleimani (bh926751@dal.ca).
+% (C) Behrouz Haji Soleimani, 2016
+% email: bh926751@dal.ca
+% Dalhousie University, Halifax NS, Canada
+% Last updated: 2016-April-04
+% 
+
 
 if (size(X, 2) > 3)
     cv = cov(X);
@@ -9,7 +14,7 @@ if (size(X, 2) > 3)
     clear cv coeff;
 end
 
-X = X';
+X = X';  
 [d,n] = size(X);
 if nargin < 2 || isempty(label)
     label = ones(n,1);
