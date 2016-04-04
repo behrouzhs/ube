@@ -35,6 +35,7 @@ function [Y, loss] = UBE(X, nDim, k, maxIter, graphMode, dispFreq, label)
 %     https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UXU6Z3
 % 
 % (C) Behrouz Haji Soleimani, 2016
+% email: bh926751@dal.ca
 % Dalhousie University, Halifax NS, Canada
 % Last updated: 2016-April-04
 % 
